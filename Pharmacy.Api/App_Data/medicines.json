@@ -1,0 +1,20 @@
+[
+  {
+    "id": "15c6ec6e-e57f-403e-b97d-65e4737ec544",
+    "fullName": "Paracetamol",
+    "notes": "FirstMedicine",
+    "expiryDate": "2025-11-15T00:00:00Z",
+    "quantity": 91,
+    "price": 10,
+    "brand": "Cipla"
+  },
+  {
+    "id": "3a067e78-be29-4c7c-a948-5c066a22dda0",
+    "fullName": "Azithormycin",
+    "notes": "Hello",
+    "expiryDate": "2025-11-15T00:00:00Z",
+    "quantity": 999,
+    "price": 85,
+    "brand": "Mankind"
+  }
+]

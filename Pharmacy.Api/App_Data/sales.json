@@ -1,0 +1,18 @@
+[
+  {
+    "id": "4c56c6ff-9e3d-4528-bca1-196db50648a4",
+    "medicineId": "15c6ec6e-e57f-403e-b97d-65e4737ec544",
+    "medicineName": "Paracetamol",
+    "quantity": 5,
+    "unitPrice": 10,
+    "soldAt": "2025-11-15T08:14:17.0567802Z"
+  },
+  {
+    "id": "6f682ce3-5a3b-489e-81a5-c32a937dbcf8",
+    "medicineId": "15c6ec6e-e57f-403e-b97d-65e4737ec544",
+    "medicineName": "Paracetamol",
+    "quantity": 4,
+    "unitPrice": 10,
+    "soldAt": "2025-11-15T08:15:06.4655513Z"
+  }
+]
