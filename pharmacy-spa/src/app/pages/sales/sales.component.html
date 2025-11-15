@@ -1,0 +1,16 @@
+<h2>Recent Sales</h2>
+
+<div *ngIf="loading">Loading…</div>
+
+<ul *ngIf="!loading">
+  <li *ngFor="let s of items">
+    <strong>{{ s.medicineName }}</strong> —
+    {{ s.quantity }} &#64; {{ s.unitPrice | number:'1.2-2' }} =
+    {{ total(s) | number:'1.2-2' }}
+    on {{ s.soldAt | date:'medium' }}
+  </li>
+</ul>
+
+<div *ngIf="!loading && (!items || items.length === 0)">
+  No sales yet.
+</div>

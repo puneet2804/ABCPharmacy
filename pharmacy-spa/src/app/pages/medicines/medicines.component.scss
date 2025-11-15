@@ -1,0 +1,11 @@
+.toolbar { display:flex; gap:12px; margin: 8px 0 16px; align-items: center; }
+.toolbar input { flex: 1; padding: 8px; }
+.grid { overflow:auto; }
+ table { width: 100%; border-collapse: collapse; }
+ th, td { padding: 8px 10px; border-bottom: 1px solid #eee; text-align: left; }
+ .low-expiry { background: #ffd6d6; }
+ .low-qty { background: #fff6bf; }
+.form { margin-top: 24px; }
+.row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+label { display:flex; flex-direction: column; gap:6px; margin-bottom:12px; }
+input, textarea, button { padding: 8px; }
